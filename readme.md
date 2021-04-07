@@ -1,19 +1,32 @@
-# Riemannian Geometry Methods and Tools for EEG preprocessing, analysis and classification
+# W13 Riemannian Geometry Methods and Tools for EEG preprocessing, analysis and classification
 
-8th International BCI Meeting: 2021 Virtual BCI meeting,
-June 7 – 9, 2021
+###### 8th International BCI Meeting: 2021 Virtual BCI meeting, June 7 – 9, 2021
+
+Workshop W13 Session 4- Thursday, June 9, 9:00am – 11:00am (Pacific Time)
+https://bcisociety.org/workshops/
 
 Organizers:
 
-Marco Congedo <Marco.congedo@gmail.com>,
-Sylvain Chevelier <sylvain.chevallier@uvsq.fr>,
-Louis Korczowski <louis.korczowski@gmail.com>,
-Florian Yger <florian.yger@dauphine.fr>
+- Marco Congedo, Gipsa-lab/CNRS, Univ. Grenoble Alpes
+- Sylvain Chevallier, UVSQ, Université de Versailles Saint-Quentin-en-Yvelines
+- Louis Korczowski, Independent Scientist
+- Florian Yger, Université Paris-Dauphine
+- Pierre Clisson, Independent Scientist
 
 
 ## Abstract
-"Riemannian Geometry (RG) is currently the object of growing interest within the BCI community. Machine learning methods based on RG have demonstrated robustness, accuracy and transfert learning capabilities for the classification of Motor Imagery, Event-Related Potential, Steady-State Visual Evoke Potentials, Sleep stages, as well as other mental states. This workshop will provide an overview of RG, emphasizing the characteristics that make RG compelling for BCI and its practical use for signal pre-processing, data analysis, mental state classification and regression. The workshop will be an opportunity for new users to solve real BCI problems (artifact removal, classification, transfert learning) with existing RG code resources and discuss the results."
+Riemannian Geometry (RG) is currently the object of growing interest within the BCI community. 
+Machine learning methods based on RG have demonstrated robustness, accuracy and transfert learning capabilities for the classification of Motor Imagery, Event-Related Potential, Steady-State Visual Evoke Potentials, Sleep stages, as well as other mental states. 
+This workshop will provide an overview of RG, emphasizing the characteristics that make RG compelling for BCI and its practical use for signal pre-processing, data analysis, mental state classification and regression. 
+The workshop will be an opportunity for new users to solve real BCI problems (artifact removal, classification, transfert learning) with existing RG code resources and discuss the results.
 
+## Intended audience
+BCI reasearchers/Neuroscientist working with EEG/MEG that are interested by Riemannian Geometry but haven’t used it already or who want a deeper understanding of the underlying properties (going beyong CSP)
+
+## Learning objectives
+1. Understanding Riemannian Geometry, its history of application in BCI
+2. Understanding the mathematical properties of Riemannian Geometry methods and the drawbacks
+3. Being able to find a use a specific method/toolbox using RG for a given need (preprocessing/analysis/classification/regression)
 
 ## Timetable
 
