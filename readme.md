@@ -13,6 +13,9 @@ Organizers:
 - Florian Yger, Université Paris-Dauphine
 - Pierre Clisson, Independent Scientist
 
+## News & Updates
+
+2021-06-04 The initial workshop was planed as a 3-hour long workshop with Coding Session & Roundtable. In order to make it more compatible to remote 2-hours format, the schedule is being changed.
 
 ## Abstract
 Riemannian Geometry (RG) is currently the object of growing interest within the BCI community. 
