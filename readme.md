@@ -9,7 +9,7 @@ Organizers:
 
 - Marco Congedo, Gipsa-lab/CNRS, Univ. Grenoble Alpes
 - Sylvain Chevallier, UVSQ, Université de Versailles Saint-Quentin-en-Yvelines
-- Louis Korczowski, Independent Scientist
+- Louis Korczowski, Independent Scientist & Siopi.ai
 - Florian Yger, Université Paris-Dauphine
 - Pierre Clisson, Independent Scientist
 
@@ -30,25 +30,21 @@ BCI reasearchers/Neuroscientist working with EEG/MEG that are interested by Riem
 
 ## Timetable
 
-### Part I: Introduction (60min)
-- How Riemannian Geometry transformed BCI? (history, breakthroughs, example of applications) (20min) (M. Congedo)
-- Why Riemannian Geometry works so well? (properties, computational speed, etc.) (20min)
-- Existing code resources for Riemannian Geometry? ( Julia: PosDefManifoldML (Julia), Matlab: Covariance Tolbox, Python: pyriemann, MOABB, pymanop, geomstats, torchspdnet) (20 min) (All)
+### Part I: Talk and Q&A (50 min)
+- How Riemannian Geometry transformed BCI? (history, breakthroughs, example of applications) by Marco Congedo. Talk + Q&A
+- Why Riemannian Geometry works so well? (properties, computational speed, etc.) by Florian Yger. Talk + Q&A.
 
-    BREAK (10min)
+    BREAK (5 min)
 
-### Part II: Demonstrations (30min)
-- "EEG Artifact removal with RG (Riemannian Potato)", using mne+pyriemman. (10min)
-- "Implementing a RG classification pipeline with standard classifiers" (tangent space) using sklearn+pyriemann (10min)
-- "Does the RG perform best all the time? A MOABB benchmarking" (S. Chevallier)  (10min)
+### Part II: Demonstrations & Discussions (50 min)
+*Because of the virtual format, we couldn't organize the coding sessions associated with the demonstration but all the code will be accessible after the workshop*
 
-### Part III: Coding Sessions & round-table  (70min)
-- RG pipeline description and formation of groups. Demo and discussion of existing coding resources with an expert (10min).
-- Using the same dataset, each group implement the demo using a different language while discussing the advantage/limitations with the expert (40min).
-- The work of each group is presented to the others groups. (20min).
+- "Automatical tag of your EEG Artifacts with a Riemannian Potatoe and get better results using mne+pyriemman" by Louis Korczowski.
+- "Upgrading your standard classification pipeline with a simple RG trick using sklearn+pyriemann" by Louis Korczowski.
+- "Does the RG perform best all the time? A MOABB benchmarking" by Sylvain Chevallier.
+- "Using Riemannian Geometry for realtime ERP speller and Timeflux" by Pierre Clisson.
 
-### Part 4: Open Discussion (10min)
-    "Advantages and limitations of existing RG tools. Directions for future developments" 
+### Part III: Future challenges (10min)
 
 
 # REFERENCES
