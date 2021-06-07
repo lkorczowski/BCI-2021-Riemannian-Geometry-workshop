@@ -49,6 +49,54 @@ BCI reasearchers/Neuroscientist working with EEG/MEG that are interested by Riem
 
 # REFERENCES
 
+Barachant A, Bonnet S, Congedo M, Jutten C (2012)
+Multi-Class Brain Computer Interface Classification by Riemannian Geometry
+IEEE Transactions on Biomedical Engineering 59(4), 920-928.
+
+Barachant A, Bonnet S, Congedo M, Jutten C (2013)
+Classification of covariance matrices using a Riemannian-based kernel for BCI applications
+Neurocomputing 112, 172-178.
+
+Horev, I, Yger, F, Sugiyama, M (2016)
+Geometry-aware principal component analysis for symmetric positive definite matrices
+Machine LearningACML, 1-30
+
+Mayaud L, Cabanilles S, Van Langhenhove A, Congedo M, Barachant A, Pouplin S, et al. (2016)
+Brain-computer interface for the communication of acute patients: a feasibility study and a randomized controlled trial comparing performance with healthy participants and a traditional assistive device
+Brain-Computer Interfaces, 3(4), 197-215.
+
+Kalunga EK, Chevallier S, Djouani K, Monacelli E, Hamam Y (2016)
+Online SSVEP-based BCI using Riemannian Geometry
+Neurocomputing 191, 55-68
+
+Yger, F., Berar, M., Lotte, F., (2017).
+Riemannian Approaches in Brain-Computer Interfaces: A Review.
+IEEE Transactions on Neural Systems and Rehabilitation Engineering 25, 1753–1762.
+
+Congedo M, Barachant A, Bhatia R (2017)
+Riemannian Geometry for EEG-based Brain-Computer Interfaces; a Primer and a Review
+Brain-Computer Interfaces, 4(3), 155-174.
+
+Congedo M, Barachant A, Kharati Koopaei E (2017)
+Fixed Point Algorithms for Estimating Power Means of Positive Definite Matrices
+IEEE Transactions on Signal Processing, 65(9), 2211-2220.
+
+Bouchard F, Malick J, Congedo M (2018)
+Riemannian Optimization and Approximate Joint Diagonalization for Blind Source Separation
+IEEE Transactions on Signal Processing, 66 (8), 2041-2054.
+
+Kalunga, EK, Chevallier, S, and Barthélemy, Q (2018)
+Transfer learning for SSVEP-based BCI using Riemannian similarities between users
+European Signal Processing Conference (EUSIPCO), 2018
+
+Lotte F, Bougrain L, Cichocki A, Clerc M, Congedo M, Rakotomamonjy A, Yger F (2018)
+A Review of Classification Algorithms for EEG-based Brain-Computer Interfaces: A 10-year Update
+Journal of Neural Engineering, 15(3):031005.
+
+Zanini P, Congedo M, Jutten C, Said S, Berthoumieu Y (2018)
+Transfer Learning: a Riemannian geometry framework with applications to Brain-Computer Interfaces
+IEEE Transactions on Biomedical Engineering, 65(5), 1107-1116.
+
 Barthélemy Q, Mayaud Q, Ojeda D, Congedo M (2019)
 The Riemannian Potato Field: a tool for online Signal Quality Index of EEG
 IEEE Transactions on Neural Systems & Rehabilitation Engineering, 27 (2), 244-255 .
@@ -61,38 +109,14 @@ Rodrigues PLC, Jutten C, Congedo M (2019)
 Riemannian Procrustes Analysis : Transfer Learning for Brain-Computer Interfaces
 IEEE Transactions on Biomedical Engineering, 66(8), 2390-2401.
 
-Bouchard F, Malick J, Congedo M (2018)
-Riemannian Optimization and Approximate Joint Diagonalization for Blind Source Separation
-IEEE Transactions on Signal Processing, 66 (8), 2041-2054.
+Yger, F, Chevallier, S, Barthélemy, Q, and Sra, S (2020) 
+Geodesically-convex optimization for averaging partially observed covariance matrices
+Asian Conference on Machine Learning
 
-Lotte F, Bougrain L, Cichocki A, Clerc M, Congedo M, Rakotomamonjy A, Yger F (2018)
-A Review of Classification Algorithms for EEG-based Brain-Computer Interfaces: A 10-year Update
-Journal of Neural Engineering, 15(3):031005.
+Khazem, S, Chevallier, S, Barthélemy, Q, Haroun, K, Noûs, C (2021)
+Minimizing Subject-dependent Calibration for BCI with Riemannian Transfer Learning
+IEEE EMBS NER
 
-Zanini P, Congedo M, Jutten C, Said S, Berthoumieu Y (2018)
-Transfer Learning: a Riemannian geometry framework with applications to Brain-Computer Interfaces
-IEEE Transactions on Biomedical Engineering, 65(5), 1107-1116.
-
-Congedo M, Barachant A, Bhatia R (2017)
-Riemannian Geometry for EEG-based Brain-Computer Interfaces; a Primer and a Review
-Brain-Computer Interfaces, 4(3), 155-174.
-
-Congedo M, Barachant A, Kharati Koopaei E (2017)
-Fixed Point Algorithms for Estimating Power Means of Positive Definite Matrices
-IEEE Transactions on Signal Processing, 65(9), 2211-2220.
-
-Mayaud L, Cabanilles S, Van Langhenhove A, Congedo M, Barachant A, Pouplin S, et al. (2016)
-Brain-computer interface for the communication of acute patients: a feasibility study and a randomized controlled trial comparing performance with healthy participants and a traditional assistive device
-Brain-Computer Interfaces, 3(4), 197-215.
-
-Barachant A, Bonnet S, Congedo M, Jutten C (2013)
-Classification of covariance matrices using a Riemannian-based kernel for BCI applications
-Neurocomputing 112, 172-178.
-
-Barachant A, Bonnet S, Congedo M, Jutten C (2012)
-Multi-Class Brain Computer Interface Classification by Riemannian Geometry
-IEEE Transactions on Biomedical Engineering 59(4), 920-928.
-
-Yger, F., Berar, M., Lotte, F., (2017).
-Riemannian Approaches in Brain-Computer Interfaces: A Review.
-IEEE Transactions on Neural Systems and Rehabilitation Engineering 25, 1753–1762. 
+Chevallier S, Kalunga EK, Barthélemy Q, Monacelli E (2021)
+Review of Riemannian distances and divergences, applied to SSVEP-based BCI
+Neuroinformatics 19 (1), 93-106
