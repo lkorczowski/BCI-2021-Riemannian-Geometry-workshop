@@ -13,6 +13,9 @@ Organizers:
 - Florian Yger, Université Paris-Dauphine
 - Pierre Clisson, Independent Scientist
 
+## News & Updates
+
+2021-06-04 The initial workshop was planed as a 3-hour long workshop with Coding Session & Roundtable. In order to make it more compatible to remote 2-hours format, the schedule is being changed.
 
 ## Abstract
 Riemannian Geometry (RG) is currently the object of growing interest within the BCI community. 
@@ -121,3 +124,7 @@ IEEE EMBS NER
 Chevallier S, Kalunga EK, Barthélemy Q, Monacelli E (2021)
 Review of Riemannian distances and divergences, applied to SSVEP-based BCI
 Neuroinformatics 19 (1), 93-106
+
+Yger, F., Berar, M., Lotte, F., (2017).
+Riemannian Approaches in Brain-Computer Interfaces: A Review.
+IEEE Transactions on Neural Systems and Rehabilitation Engineering 25, 1753–1762. 
