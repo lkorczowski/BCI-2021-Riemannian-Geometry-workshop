@@ -30,21 +30,22 @@ BCI reasearchers/Neuroscientist working with EEG/MEG that are interested by Riem
 
 ## Timetable
 
+### Introduction
+
 ### Part I: Talk and Q&A (50 min)
-- How Riemannian Geometry transformed BCI? (history, breakthroughs, example of applications) by Marco Congedo. Talk + Q&A
+- How Riemannian Geometry transformed BCI? (history, breakthroughs, example of applications) by Marco Congedo. Talk + Q&A.
 - Why Riemannian Geometry works so well? (properties, computational speed, etc.) by Florian Yger. Talk + Q&A.
 
-    BREAK (5 min)
 
 ### Part II: Demonstrations & Discussions (50 min)
-*Because of the virtual format, we couldn't organize the coding sessions associated with the demonstration but all the code will be accessible after the workshop*
+*Because of the virtual format, we couldn't organize the coding sessions associated with the demonstration but all the code will be accessible after the workshop. Each demo will consist of a short introduction, code demo and Q&A.*
 
 - "Automatical tag of your EEG Artifacts with a Riemannian Potatoe and get better results using mne+pyriemman" by Louis Korczowski.
 - "Upgrading your standard classification pipeline with a simple RG trick using sklearn+pyriemann" by Louis Korczowski.
-- "Does the RG perform best all the time? A MOABB benchmarking" by Sylvain Chevallier.
+- "Benchmarking BCI pipelines across dataset: the MOABB approach" by Sylvain Chevallier.
 - "Using Riemannian Geometry for realtime ERP speller and Timeflux" by Pierre Clisson.
 
-### Part III: Future challenges (10min)
+### Part III: Discussion on future challenges (10min)
 
 
 # REFERENCES
