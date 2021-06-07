@@ -9,7 +9,7 @@ Organizers:
 
 - Marco Congedo, Gipsa-lab/CNRS, Univ. Grenoble Alpes
 - Sylvain Chevallier, UVSQ, Université de Versailles Saint-Quentin-en-Yvelines
-- Louis Korczowski, Independent Scientist
+- Louis Korczowski, Independent Scientist & Siopi.ai
 - Florian Yger, Université Paris-Dauphine
 - Pierre Clisson, Independent Scientist
 
@@ -33,28 +33,73 @@ BCI reasearchers/Neuroscientist working with EEG/MEG that are interested by Riem
 
 ## Timetable
 
-### Part I: Introduction (60min)
-- How Riemannian Geometry transformed BCI? (history, breakthroughs, example of applications) (20min) (M. Congedo)
-- Why Riemannian Geometry works so well? (properties, computational speed, etc.) (20min)
-- Existing code resources for Riemannian Geometry? ( Julia: PosDefManifoldML (Julia), Matlab: Covariance Tolbox, Python: pyriemann, MOABB, pymanop, geomstats, torchspdnet) (20 min) (All)
+### Introduction
 
-    BREAK (10min)
+### Part I: Talk and Q&A (50 min)
+- How Riemannian Geometry transformed BCI? (history, breakthroughs, example of applications) by Marco Congedo. Talk + Q&A.
+- Why Riemannian Geometry works so well? (properties, computational speed, etc.) by Florian Yger. Talk + Q&A.
 
-### Part II: Demonstrations (30min)
-- "EEG Artifact removal with RG (Riemannian Potato)", using mne+pyriemman. (10min)
-- "Implementing a RG classification pipeline with standard classifiers" (tangent space) using sklearn+pyriemann (10min)
-- "Does the RG perform best all the time? A MOABB benchmarking" (S. Chevallier)  (10min)
 
-### Part III: Coding Sessions & round-table  (70min)
-- RG pipeline description and formation of groups. Demo and discussion of existing coding resources with an expert (10min).
-- Using the same dataset, each group implement the demo using a different language while discussing the advantage/limitations with the expert (40min).
-- The work of each group is presented to the others groups. (20min).
+### Part II: Demonstrations & Discussions (50 min)
+*Because of the virtual format, we couldn't organize the coding sessions associated with the demonstration but all the code will be accessible after the workshop. Each demo will consist of a short introduction, code demo and Q&A.*
 
-### Part 4: Open Discussion (10min)
-    "Advantages and limitations of existing RG tools. Directions for future developments" 
+- "Automatical tag of your EEG Artifacts with a Riemannian Potatoe and get better results using mne+pyriemman" by Louis Korczowski.
+- "Upgrading your standard classification pipeline with a simple RG trick using sklearn+pyriemann" by Louis Korczowski.
+- "Benchmarking BCI pipelines across dataset: the MOABB approach" by Sylvain Chevallier.
+- "Using Riemannian Geometry for realtime ERP speller and Timeflux" by Pierre Clisson.
+
+### Part III: Discussion on future challenges (10min)
 
 
 # REFERENCES
+
+Barachant A, Bonnet S, Congedo M, Jutten C (2012)
+Multi-Class Brain Computer Interface Classification by Riemannian Geometry
+IEEE Transactions on Biomedical Engineering 59(4), 920-928.
+
+Barachant A, Bonnet S, Congedo M, Jutten C (2013)
+Classification of covariance matrices using a Riemannian-based kernel for BCI applications
+Neurocomputing 112, 172-178.
+
+Horev, I, Yger, F, Sugiyama, M (2016)
+Geometry-aware principal component analysis for symmetric positive definite matrices
+Machine LearningACML, 1-30
+
+Mayaud L, Cabanilles S, Van Langhenhove A, Congedo M, Barachant A, Pouplin S, et al. (2016)
+Brain-computer interface for the communication of acute patients: a feasibility study and a randomized controlled trial comparing performance with healthy participants and a traditional assistive device
+Brain-Computer Interfaces, 3(4), 197-215.
+
+Kalunga EK, Chevallier S, Djouani K, Monacelli E, Hamam Y (2016)
+Online SSVEP-based BCI using Riemannian Geometry
+Neurocomputing 191, 55-68
+
+Yger, F., Berar, M., Lotte, F., (2017).
+Riemannian Approaches in Brain-Computer Interfaces: A Review.
+IEEE Transactions on Neural Systems and Rehabilitation Engineering 25, 1753–1762.
+
+Congedo M, Barachant A, Bhatia R (2017)
+Riemannian Geometry for EEG-based Brain-Computer Interfaces; a Primer and a Review
+Brain-Computer Interfaces, 4(3), 155-174.
+
+Congedo M, Barachant A, Kharati Koopaei E (2017)
+Fixed Point Algorithms for Estimating Power Means of Positive Definite Matrices
+IEEE Transactions on Signal Processing, 65(9), 2211-2220.
+
+Bouchard F, Malick J, Congedo M (2018)
+Riemannian Optimization and Approximate Joint Diagonalization for Blind Source Separation
+IEEE Transactions on Signal Processing, 66 (8), 2041-2054.
+
+Kalunga, EK, Chevallier, S, and Barthélemy, Q (2018)
+Transfer learning for SSVEP-based BCI using Riemannian similarities between users
+European Signal Processing Conference (EUSIPCO), 2018
+
+Lotte F, Bougrain L, Cichocki A, Clerc M, Congedo M, Rakotomamonjy A, Yger F (2018)
+A Review of Classification Algorithms for EEG-based Brain-Computer Interfaces: A 10-year Update
+Journal of Neural Engineering, 15(3):031005.
+
+Zanini P, Congedo M, Jutten C, Said S, Berthoumieu Y (2018)
+Transfer Learning: a Riemannian geometry framework with applications to Brain-Computer Interfaces
+IEEE Transactions on Biomedical Engineering, 65(5), 1107-1116.
 
 Barthélemy Q, Mayaud Q, Ojeda D, Congedo M (2019)
 The Riemannian Potato Field: a tool for online Signal Quality Index of EEG
@@ -68,37 +113,17 @@ Rodrigues PLC, Jutten C, Congedo M (2019)
 Riemannian Procrustes Analysis : Transfer Learning for Brain-Computer Interfaces
 IEEE Transactions on Biomedical Engineering, 66(8), 2390-2401.
 
-Bouchard F, Malick J, Congedo M (2018)
-Riemannian Optimization and Approximate Joint Diagonalization for Blind Source Separation
-IEEE Transactions on Signal Processing, 66 (8), 2041-2054.
+Yger, F, Chevallier, S, Barthélemy, Q, and Sra, S (2020) 
+Geodesically-convex optimization for averaging partially observed covariance matrices
+Asian Conference on Machine Learning
 
-Lotte F, Bougrain L, Cichocki A, Clerc M, Congedo M, Rakotomamonjy A, Yger F (2018)
-A Review of Classification Algorithms for EEG-based Brain-Computer Interfaces: A 10-year Update
-Journal of Neural Engineering, 15(3):031005.
+Khazem, S, Chevallier, S, Barthélemy, Q, Haroun, K, Noûs, C (2021)
+Minimizing Subject-dependent Calibration for BCI with Riemannian Transfer Learning
+IEEE EMBS NER
 
-Zanini P, Congedo M, Jutten C, Said S, Berthoumieu Y (2018)
-Transfer Learning: a Riemannian geometry framework with applications to Brain-Computer Interfaces
-IEEE Transactions on Biomedical Engineering, 65(5), 1107-1116.
-
-Congedo M, Barachant A, Bhatia R (2017)
-Riemannian Geometry for EEG-based Brain-Computer Interfaces; a Primer and a Review
-Brain-Computer Interfaces, 4(3), 155-174.
-
-Congedo M, Barachant A, Kharati Koopaei E (2017)
-Fixed Point Algorithms for Estimating Power Means of Positive Definite Matrices
-IEEE Transactions on Signal Processing, 65(9), 2211-2220.
-
-Mayaud L, Cabanilles S, Van Langhenhove A, Congedo M, Barachant A, Pouplin S, et al. (2016)
-Brain-computer interface for the communication of acute patients: a feasibility study and a randomized controlled trial comparing performance with healthy participants and a traditional assistive device
-Brain-Computer Interfaces, 3(4), 197-215.
-
-Barachant A, Bonnet S, Congedo M, Jutten C (2013)
-Classification of covariance matrices using a Riemannian-based kernel for BCI applications
-Neurocomputing 112, 172-178.
-
-Barachant A, Bonnet S, Congedo M, Jutten C (2012)
-Multi-Class Brain Computer Interface Classification by Riemannian Geometry
-IEEE Transactions on Biomedical Engineering 59(4), 920-928.
+Chevallier S, Kalunga EK, Barthélemy Q, Monacelli E (2021)
+Review of Riemannian distances and divergences, applied to SSVEP-based BCI
+Neuroinformatics 19 (1), 93-106
 
 Yger, F., Berar, M., Lotte, F., (2017).
 Riemannian Approaches in Brain-Computer Interfaces: A Review.
