@@ -43,9 +43,9 @@ BCI reasearchers/Neuroscientist working with EEG/MEG that are interested by Riem
 ### Part II: Demonstrations & Discussions (50 min)
 *Because of the virtual format, we couldn't organize the coding sessions associated with the demonstration but all the code will be accessible after the workshop. Each demo will consist of a short introduction, code demo and Q&A.*
 
-- "Automatical tag of your EEG Artifacts with a Riemannian Potatoe and get better results using mne+pyriemman" by Louis Korczowski.
-- "Upgrading your standard classification pipeline with a simple RG trick using sklearn+pyriemann" by Louis Korczowski.
-- "Benchmarking BCI pipelines across dataset: the MOABB approach" by Sylvain Chevallier.
+- "Automatical tag of your EEG artifacts with a Riemannian Potato and get better results using MNE+pyRiemann" by Louis Korczowski.
+- "Upgrading your standard classification pipeline with a simple RG trick using sklearn+pyRiemann" by Louis Korczowski.
+- "Evaluating BCI pipelines across datasets: the Mother of All BCI Benchmarks" by Sylvain Chevallier.
 - "Using Riemannian Geometry for realtime ERP speller and Timeflux" by Pierre Clisson.
 
 ### Part III: Discussion on future challenges (10min)
@@ -124,7 +124,3 @@ IEEE EMBS NER
 Chevallier S, Kalunga EK, Barthélemy Q, Monacelli E (2021)
 Review of Riemannian distances and divergences, applied to SSVEP-based BCI
 Neuroinformatics 19 (1), 93-106
-
-Yger, F., Berar, M., Lotte, F., (2017).
-Riemannian Approaches in Brain-Computer Interfaces: A Review.
-IEEE Transactions on Neural Systems and Rehabilitation Engineering 25, 1753–1762. 
