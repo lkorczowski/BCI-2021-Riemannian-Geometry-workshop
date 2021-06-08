@@ -1,0 +1,134 @@
+import:
+  - graphs/random.yaml
+  #- graphs/cyton.yaml
+  #- graphs/hackeeg.yaml
+  - graphs/record.yaml
+
+graphs:
+
+  - id: Broker
+    nodes:
+    - id: proxy
+      module: timeflux.nodes.zmq
+      class: Broker
+
+  - id: UI
+    nodes:
+    - id: speller
+      module: timeflux_ui.nodes.ui
+      class: UI
+      params:
+        routes:
+          speller: gui
+        settings:
+          speller:
+            stim:
+              face: true
+              magnify: false
+            grid:
+              ratio: "1:1"
+            repetitions:
+              train: 8
+              test: 0 # Wait until we have a good prediction
+            durations:
+              baseline_eyes_open: 0
+              baseline_eyes_closed: 0
+              inter_block: 3000
+    - id: sub
+      module: timeflux.nodes.zmq
+      class: Sub
+      params:
+        topics: [model, eeg]
+    - id: pub
+      module: timeflux.nodes.zmq
+      class: Pub
+      params:
+        topic: events
+    edges:
+    - source: speller:events
+      target: pub
+    - source: sub:model
+      target: speller:model
+    - source: sub:eeg
+      target: speller:eeg
+    rate: 10
+
+  - id: Classification
+    nodes:
+    - id: sub
+      module: timeflux.nodes.zmq
+      class: Sub
+      params:
+        topics: [eeg, events]
+    - id: epoch
+      module: timeflux.nodes.epoch
+      class: Epoch
+      params:
+        event_trigger: flash_begins
+        before: 0
+        after: 0.9
+    - id: trim
+      module: timeflux.nodes.epoch
+      class: Trim
+      params:
+        samples: 200
+    - id: classification
+      module: timeflux.nodes.ml
+      class: Pipeline
+      params:
+        mode: predict_proba
+        meta_label: [epoch, context, includes_target]
+        event_start_accumulation: calibration_begins
+        event_stop_accumulation: calibration_ends
+        event_start_training: calibration_ends
+        steps:
+          - module: timeflux.estimators.transformers.shape
+            class: Transpose
+            args:
+              axes: [0, 2, 1]
+          - module: pyriemann.estimation
+            class: ERPCovariances
+            args:
+              estimator: oas
+          - module: pyriemann.classification
+            class: MDM
+    - id: predict
+      module: nodes.predict
+      class: InferContinuous
+      params:
+        threshold: 2
+    # - id: predict
+    #   module: nodes.predict
+    #   class: nodes.InferBlock
+    # - id: predict
+    #   module: nodes.predict
+    #   class: Best
+    - id: pub
+      module: timeflux.nodes.zmq
+      class: Pub
+      params:
+        topic: model
+    - id: display
+      module: timeflux.nodes.debug
+      class: Display
+    edges:
+    - source: sub:eeg
+      target: epoch
+    - source: sub:events
+      target: epoch:events
+    - source: sub:events
+      target: classification:events
+    - source: epoch:*
+      target: trim
+    - source: trim:*
+      target: classification:training
+    - source: trim:*
+      target: classification
+    - source: sub:events
+      target: predict:ui
+    - source: classification:events
+      target: predict:model
+    - source: predict
+      target: pub
+    # - source: classification:events
+    #   target: display

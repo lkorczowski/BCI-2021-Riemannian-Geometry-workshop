@@ -1,0 +1,44 @@
+graphs:
+
+  - id: HackEEG
+    nodes:
+    - id: acquire
+      module: timeflux_hackeeg.nodes.driver
+      class: HackEEG
+      params:
+        port: /dev/cu.usbmodem1432201
+        rate: 250
+        gain: 1
+        names: [Cz, Pz, P7, P8, P3, P4, O1, O2]
+    - id: notch
+      module: timeflux_dsp.nodes.filters
+      class: IIRLineFilter
+      params:
+        rate: 250
+    - id: bandpass
+      module: timeflux_dsp.nodes.filters
+      class: IIRFilter
+      params:
+        rate: 250
+        order: 3
+        frequencies: [1, 40]
+    - id: pub_raw
+      module: timeflux.nodes.zmq
+      class: Pub
+      params:
+        topic: raw
+    - id: pub_filtered
+      module: timeflux.nodes.zmq
+      class: Pub
+      params:
+        topic: eeg
+    edges:
+    - source: acquire
+      target: pub_raw
+    - source: acquire
+      target: notch
+    - source: notch
+      target: bandpass
+    - source: bandpass
+      target: pub_filtered
+    rate: 10

@@ -1,0 +1,136 @@
+  /*************/
+ /* VARIABLES */
+/*************/
+
+:root {
+    --font-size-normal: 15px;
+    --font-size-flash: 30px;
+    --font-size-focus: 30px;
+    --font-color-normal: #303030;
+    --font-color-flash: white;
+    --font-color-focus: blue;
+    --background-color: black;
+    --grid-border-color: #303030;
+    --grid-border-size: 1px;
+    --grid-width: 100%;
+    --grid-height: 100%;
+    --grid-padding: 0;
+}
+
+
+  /**********/
+ /* COMMON */
+/**********/
+
+body {
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: var(--background-color);
+}
+
+* { outline: none; }
+
+
+  /***************/
+ /* MAIN LAYOUT */
+/***************/
+
+#wrapper {
+
+    /* Full with, full height */
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+
+    /* Grid settings */
+    display: grid;
+    grid-template-rows: auto max-content;
+    grid-template-columns: auto;
+    grid-template-areas: "main" "footer";
+
+}
+
+#main { grid-area: main; }
+#footer { grid-area: footer; }
+
+#main {
+    margin: 20px;
+}
+
+  /**********/
+ /* FOOTER */
+/**********/
+
+#footer {
+    background-color: #303030;
+    border-top: 1px solid #606060;
+    padding: 20px;
+}
+
+#instructions {
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    overflow: hidden;
+    max-width: calc(100% - 120px);
+    color: #A0A0A0;
+}
+
+#button {
+    float: right;
+    font-size: 1rem;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #A0A0A0;
+    color: #A0A0A0;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+
+#button:hover:enabled {
+    background-color: #555;
+}
+
+#button:disabled {
+    cursor: not-allowed;
+    border: 1px solid #606060;
+    color: #606060;
+}
+
+
+  /***************/
+ /* SYMBOL GRID */
+/***************/
+
+#symbols {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Will be overwritten by JavaScript */
+    grid-auto-rows: 1fr;
+    width: var(--grid-width);
+    height: var(--grid-height);
+    padding: var(--grid-padding);
+}
+
+.symbol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: var(--font-color-normal);
+    font-size: var(--font-size-normal);
+    background-color: var(--background-color);
+    border: var(--grid-border-size) var(--grid-border-color) solid;
+}
+
+.symbol.flash {
+    font-weight: bolder;
+    color: var(--font-color-flash);
+    font-size: var(--font-size-flash);
+}
+
+.symbol.focus {
+    font-weight: bolder;
+    color: var(--font-color-focus);
+    font-size: var(--font-size-focus);
+}
