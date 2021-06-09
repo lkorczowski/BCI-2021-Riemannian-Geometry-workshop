@@ -46,7 +46,7 @@ BCI reasearchers/Neuroscientist working with EEG/MEG that are interested by Riem
 - "Automatical tag of your EEG artifacts with a Riemannian Potato and get better results using MNE+pyRiemann" by Louis Korczowski.
 - "Upgrading your standard classification pipeline with a simple RG trick using sklearn+pyRiemann" by Louis Korczowski.
 - "Evaluating BCI pipelines across datasets: the Mother of All BCI Benchmarks" by Sylvain Chevallier.
-- "Using Riemannian Geometry for realtime ERP speller and Timeflux" by Pierre Clisson.
+- "Building a realtime realtime ERP speller using Riemannian Geometry and Timeflux" by Pierre Clisson.
 
 ### Part III: Discussion on future challenges (10min)
 
