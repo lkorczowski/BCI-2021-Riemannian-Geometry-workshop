@@ -52,6 +52,10 @@ BCI reasearchers/Neuroscientist working with EEG/MEG that are interested by Riem
 
 ### Part III: Discussion on future challenges (10min)
 
+# Tools & Resources
+- Julia: https://sites.google.com/site/marcocongedo/science/code-resources?authuser=0
+- Timeflux: https://timeflux.io
+- Pyriemann: https://github.com/pyRiemann/pyRiemann
 
 # REFERENCES
 
