@@ -1,5 +1,7 @@
 # W13 Riemannian Geometry Methods and Tools for EEG preprocessing, analysis and classification
 
+NOTE: if you participated to the workshop, please take 2min to give us your feedback to improve the material https://iyrp0g0k85t.typeform.com/to/g6Mcub4o
+
 ###### 8th International BCI Meeting: 2021 Virtual BCI meeting, June 7 – 9, 2021
 
 Workshop W13 Session 4- Thursday, June 9, 9:00am – 11:00am (Pacific Time)
