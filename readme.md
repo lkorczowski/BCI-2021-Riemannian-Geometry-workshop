@@ -53,9 +53,22 @@ BCI reasearchers/Neuroscientist working with EEG/MEG that are interested by Riem
 ### Part III: Discussion on future challenges (10min)
 
 # Tools & Resources
-- Julia: https://sites.google.com/site/marcocongedo/science/code-resources?authuser=0
-- Timeflux: https://timeflux.io
-- Pyriemann: https://github.com/pyRiemann/pyRiemann
+- List of code package in different languages: https://sites.google.com/site/marcocongedo/science/code-resources
+
+## Matlab
+- Covariance Toolbox: https://github.com/alexandrebarachant/covariancetoolbox
+- Manopt: https://www.manopt.org/ (for advanced RG users)
+
+## Python
+- Timeflux: https://timeflux.io (for end-to-end BCI using any python code including Pyriemann)
+- Pyriemann: https://github.com/pyRiemann/pyRiemann (beginner friendly, several tutorials in the documentation)
+- Riemannian Means Field: https://github.com/plcrodrigues/means-field-classifier
+- Riemannian Procrustes Analysis: https://github.com/plcrodrigues/RPA
+- Mother Of All BCI Benchmark: https://github.com/NeuroTechX/moabb
+- pymanopt: https://github.com/pymanopt/pymanopt (for advanced RG users)
+
+## R
+- RiemannR: https://github.com/LauraMasiero/RiemannR
 
 # REFERENCES
 
