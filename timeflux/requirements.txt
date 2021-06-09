@@ -1,0 +1,7 @@
+timeflux==0.10.0
+timeflux_ui==0.3.3
+timeflux_dsp==0.3.1
+timeflux_brainflow==0.6.0
+timeflux_openbci==0.4.0
+timeflux_hackeeg==0.3.0
+git+https://github.com/pyRiemann/pyRiemann#egg=pyriemman
