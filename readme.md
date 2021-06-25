@@ -15,9 +15,16 @@ Organizers:
 - Florian Yger, Université Paris-Dauphine
 - Pierre Clisson, Independent Scientist
 
+## Q&A
+You can see all the questions and their answer at the workshop following this link. Moreover, you can directly comment the document if you want to ask more questions and add precisions.
+
+Q&A: https://www.notion.so/Q-A-W13-Riemannian-Geometry-workshop-at-BCI-Meeting-2021-634290eefe0b47d59e0b7f68c9980ab6
+
 ## News & Updates
 
-2021-06-04 The initial workshop was planed as a 3-hour long workshop with Coding Session & Roundtable. In order to make it more compatible to remote 2-hours format, the schedule is being changed.
+- 2021-06-25 The Q&A with all the questions from the workshop is available here: https://www.notion.so/Q-A-W13-Riemannian-Geometry-workshop-at-BCI-Meeting-2021-634290eefe0b47d59e0b7f68c9980ab6
+- 2021-06-07 The workshop is over! Thanks for your contributions. In the following weeks we will add more resources.
+- 2021-06-04 The initial workshop was planed as a 3-hour long workshop with Coding Session & Roundtable. In order to make it more compatible to remote 2-hours format, the schedule is being changed.
 
 ## Abstract
 Riemannian Geometry (RG) is currently the object of growing interest within the BCI community. 
